@@ -1,0 +1,41 @@
+<!-- HTML -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Invitación de cumpleaños de Bugha</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <h1>¡Te invitamos a la fiesta de cumpleaños de Bugha!</h1>
+  <p>Te esperamos el sábado 24 de diciembre a las 8:00 PM en nuestra casa.</p>
+  <p>Habrá comida, bebida y mucha diversión. ¡No te lo puedes perder!</p>
+  <button id="rsvp-button">Confirmar asistencia</button>
+</body>
+</html>
+
+/* CSS */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+h1 {
+  color: #333;
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* JavaScript */
+document.getElementById("rsvp-button").addEventListener("click", function() {
+  alert("¡Gracias por confirmar tu asistencia a la fiesta de Bugha!");
+});
